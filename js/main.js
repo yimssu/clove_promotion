@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', function () {
     container.addListener((e) => {
 
         let scrollTop = container.scrollTop;
-        $('.posNum').html(scrollTop)
+        // $('.posNum').html(scrollTop)
 
         if(scrollTop >= 500){
             $('.image02_02').addClass('on');
