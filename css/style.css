@@ -1098,19 +1098,19 @@
 
 
 
-/*********footer*****************************************/
-#footer{
+/*********section08*****************************************/
+#section08{
     position: relative;
     height: 1350px;
     background: #ffffff;
 }
-#footer .background_footer {
+#section08 .background_08 {
     position: absolute;
     top: 0px;
     left: 0px;
     z-index: 100;
 }
-#footer .image_footer {
+#section08 .image_08 {
     position: absolute;
     top: 180px;
     left: 50%;
@@ -1119,11 +1119,11 @@
     opacity: 0;
     transition: all 2s;
 }
-#footer .image_footer.on {
+#section08 .image_08.on {
     Opacity:1;
 }
 
-#footer .title01_footer {
+#section08 .title01_08 {
     position: absolute;
     top: 300px;
     left: 300px;
@@ -1131,10 +1131,10 @@
     transform: translateX(150px);
     transition: all 1s;
 }
-#footer .title01_footer.on {
+#section08 .title01_08.on {
     transform:none;
 }
-#footer .title02_footer {
+#section08 .title02_08 {
     position: absolute;
     top: 430px;
     left: 300px;
@@ -1142,10 +1142,10 @@
     transform: translateX(-150px);
     transition: all 1s;
 }
-#footer .title02_footer.on {
+#section08 .title02_08.on {
     transform:none;
 }
-#footer .title03_footer {
+#section08 .title03_08 {
     position: absolute;
     top: 560px;
     left: 300px;
@@ -1153,23 +1153,23 @@
     transform: translateX(150px);
     transition: all 1s;
 }
-#footer .title03_footer.on {
+#section08 .title03_08.on {
     transform:none;
 }
-#footer .text01_footer {
+#section08 .text01_08 {
     position: absolute;
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 300;
 }
-#footer .text02_footer {
+#section08 .text02_08 {
     position: absolute;
     top: 620px;
     left: 1370px;
     z-index: 300;
 }
-#footer .text03_footer {
+#section08 .text03_08 {
     position: absolute;
     bottom: 100px;
     left: 50%;
@@ -1179,7 +1179,7 @@
 
 
 
-#footer .line01_footer {
+#section08 .line01_08 {
     position: absolute;
     left: 0px;
     top: 280px;
@@ -1189,10 +1189,10 @@
     transition: all 1s;
     z-index: 100;
 }
-#footer .line01_footer.on {
+#section08 .line01_08.on {
     width: 800px;
 }
-#footer .line02_footer {
+#section08 .line02_08 {
     position: absolute;
     left: 0px;
     top: 420px;
@@ -1202,11 +1202,11 @@
     transition: all 1s;
     z-index: 100;
 }
-#footer .line02_footer.on {
+#section08 .line02_08.on {
     width: 800px;
 }
 
-#footer .line03_footer {
+#section08 .line03_08 {
     position: absolute;
     left: 0px;
     top: 560px;
@@ -1216,11 +1216,11 @@
     transition: all 1s;
     z-index: 100;
 }
-#footer .line03_footer.on {
+#section08 .line03_08.on {
     width: 1920px;
 }
 
-#footer .line04_footer {
+#section08 .line04_08 {
     position: absolute;
     left: 0px;
     top: 700px;
@@ -1230,11 +1230,11 @@
     transition: all 1s;
     z-index: 100;
 }
-#footer .line04_footer.on {
+#section08 .line04_08.on {
     width: 1920px;
 }
 
-#footer .line05_footer {
+#section08 .line05_08 {
     position: absolute;
     left: 1200px;
     top: 840px;
@@ -1244,6 +1244,174 @@
     transition: all 1s;
     z-index: 100;
 }
-#footer .line05_footer.on {
+#section08 .line05_08.on {
     width: 800px;
+}
+
+
+
+
+/************ footer *******************************/
+#footer{
+    position: relative;
+    height: 910px;
+    background: rgb(11, 11, 11);
+    overflow: hidden;
+}
+
+#footer .title01_footer {
+    position: absolute;
+    top: 130px;
+    left: 120px;
+    z-index: 100;
+    height: 99px;
+    overflow: hidden;
+}
+#footer .title01_footer img {
+    transform: translateY(99px);
+    transition: 1s;
+}
+#footer .title01_footer.on img {
+    transform: translateY(0);
+}
+
+#footer .title02_footer {
+    position: absolute;
+    top: 280px;
+    left: 120px;
+    z-index: 100;
+    height: 99px;
+    overflow: hidden;
+}
+#footer .title02_footer img {
+    transform: translateY(99px);
+    transition: 1s;
+}
+#footer .title02_footer.on img {
+    transform: translateY(0);
+}
+#footer .title03_footer {
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    z-index: 100;
+}
+#footer .back_footer {
+    position: absolute;
+    top: 310px;
+    left: 1430px;
+    z-index: 100;
+}
+#footer .next_footer {
+    position: absolute;
+    top: 310px;
+    left: 1620px;
+    z-index: 100;
+}
+
+#footer .line01 {
+    position: absolute;
+    left: 120px;
+    top: 450px;
+    width: 1665px;
+    height: 2px;
+    background-color: #7e7e7e;
+    transition: all 1s;
+}
+/* #footer .line01.on {
+    width: 1745px;
+} */
+
+
+#footer .line02 {
+    position: absolute;
+    left: 120px;
+    top: 730px;
+    width: 1665px;
+    height: 2px;
+    background-color: #7e7e7e;
+    transition: all 1s;
+}
+/* #footer .line02.on {
+    width: 1745px;
+} */
+
+#footer .text01_footer {
+    position: absolute;
+    top: 520px;
+    left: 170px;
+    z-index: 100;
+}
+#footer .text02_footer {
+    position: absolute;
+    top: 520px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link01_footer {
+    position: absolute;
+    top: 570px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link02_footer {
+    position: absolute;
+    top: 600px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link03_footer {
+    position: absolute;
+    top: 630px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link04_footer {
+    position: absolute;
+    top: 660px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link05_footer {
+    position: absolute;
+    top: 570px;
+    left: 1450px;
+    z-index: 100;
+}
+#footer .link06_footer {
+    position: absolute;
+    top: 600px;
+    left: 1450px;
+    z-index: 100;
+}
+#footer .link07_footer {
+    position: absolute;
+    top: 630px;
+    left: 1450px;
+    z-index: 100;
+}
+#footer .text03_footer {
+    position: absolute;
+    top: 755px;
+    left: 120px;
+    z-index: 100;
+}
+#footer .text04_footer {
+    position: absolute;
+    top: 755px;
+    right: 140px;
+    z-index: 100;
+}
+
+#footer .heart01_footer {
+    position: absolute;
+    top: 0px;
+    left: -300px;
+    z-index: 1;
+}
+#footer .heart02_footer {
+    position: absolute;
+    top: 300px;
+    right: -200px;
+    z-index: 1;
 }

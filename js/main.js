@@ -168,34 +168,45 @@ window.addEventListener('DOMContentLoaded', function () {
             $('.image02_07').addClass('on');
         }
         if(scrollTop >= 18565){
-            $('.image_footer').addClass('on');
+            $('.image_08').addClass('on');
         }
         if(scrollTop >= 18565){
-            $('.title01_footer').addClass('on');
+            $('.title01_08').addClass('on');
         } 
         if(scrollTop >= 18565){
-            $('.title02_footer').addClass('on');
+            $('.title02_08').addClass('on');
         } 
         if(scrollTop >= 18565){
-            $('.title03_footer').addClass('on');
+            $('.title03_08').addClass('on');
         }
 
 
         if(scrollTop >= 18555){
-            $('.line01_footer').addClass('on');
+            $('.line01_08').addClass('on');
         }
         if(scrollTop >= 18565){
-            $('.line02_footer').addClass('on');
+            $('.line02_08').addClass('on');
         }
         if(scrollTop >= 18565){
-            $('.line03_footer').addClass('on');
+            $('.line03_08').addClass('on');
         }
         if(scrollTop >= 18565){
-            $('.line04_footer').addClass('on');
+            $('.line04_08').addClass('on');
         }
         if(scrollTop >= 18565){
-            $('.line05_footer').addClass('on');
+            $('.line05_08').addClass('on');
         }
+
+
+        if(scrollTop >= 19940){
+            $('.title01_footer').addClass('on');
+        }
+        if(scrollTop >= 20000){
+            $('.title02_footer').addClass('on');
+        }
+
+
+
 
         if(scrollTop >= 100) { // 숫자에 따라 아래로 스크롤 했을 때 사라지는 영역의 크기가 바뀝니다.
             if ((scrollTop > lastScrollTop) && (lastScrollTop>0)) { /* &&: AND, 두 값이 모두 참이어야 값이 출력 */
